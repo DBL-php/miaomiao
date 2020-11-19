@@ -11,7 +11,11 @@ Vue.use(VueRouter)
 const routes = [
   movieRouter,
   cinemaRouter,
-  mimeRouter
+  mimeRouter,
+  {
+    path : '/*',
+    redirect: '/movie'
+  }
 ]
 
 const router = new VueRouter({
