@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import movieRouter from './movie' 
 import mimeRouter from './mime' 
 import cinemaRouter from './cinema' 
+import adminRouter from './admin' 
 
 
 
@@ -10,6 +11,7 @@ Vue.use(VueRouter)
 
 const routes = [
   movieRouter,
+  adminRouter,
   cinemaRouter,
   mimeRouter,
   {

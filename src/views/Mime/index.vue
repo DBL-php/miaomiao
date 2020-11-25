@@ -2,7 +2,7 @@
   <div>
     <Header title="我的喵喵"></Header>
     <div id="content">
-      <Login />
+      <router-view></router-view>
     </div>
     <TabBar></TabBar>
   </div>

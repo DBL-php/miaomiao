@@ -9,14 +9,13 @@
 					<i class="iconfont icon-yingyuan"></i>
 					<p>影院</p>
 				</router-link>
-				<router-link tag="li" to="mime">
+				<router-link tag="li" to="/mime">
 					<i class="iconfont icon-wode"></i>
 					<p>我的</p>
 				</router-link>
 			</ul>
 	</footer>
 </template>
-
 <script>
 export default {
     name: 'TabBar'
