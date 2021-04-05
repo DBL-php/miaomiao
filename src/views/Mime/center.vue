@@ -51,6 +51,7 @@ export default {
             content: "上传头像成功",
             ok: "确定",
             handleOk() {
+              // 给方法传回一个对象作为数据 方便vuex中做出更新
               This.$store.commit("user/USER_NAME", {
                 name: This.$store.state.user.name,
                 isAdmin: This.$store.state.user.isAdmin,
